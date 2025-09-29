@@ -3,21 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login - UFPS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-8">
+            <div class="col-12 text-center">
                 <form id="formulario">
-                    <div class="form-group">
-                        <label for="exampleInputCodigo1">Código de Estudiante</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese Código">
-                        <!--<small id="emailHelp" class="form-text text-muted"></small -->
+                    <div class="img">
+                        <img src="https://ww2.ufps.edu.co/public/archivos/elementos_corporativos/logo-horizontal.jpg" width="300">
                     </div>
-                    <div class="form-group">
+
+                    <div class="form-group mb-3">
+                        <label for="codigo">Código de Estudiante</label>
+                        <input type="text" class="form-control" id="codigo" placeholder="Ingrese Código" required>
+                    </div>
+                    <div class="form-group mb-3">
                         <label for="exampleInputPassword1">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                     </div>
@@ -26,5 +30,7 @@
             </div>
         </div>
     </div>
+<body>
+
 </body>
 </html>
